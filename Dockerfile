@@ -23,14 +23,11 @@ RUN python -m nltk.downloader stopwords wordnet omw-1.4
 # Copy project files
 COPY . /app
 
-# Copy and prepare entrypoint
-COPY entrypoint.sh /app/entrypoint.sh
-RUN chmod +x /app/entrypoint.sh
-
 EXPOSE 8501
 
+# Healthcheck
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 --start-period=20s \
   CMD curl -f http://localhost:8501/_stcore/health || exit 1
 
-# Use entrypoint script to run pipeline then start Streamlit
-ENTRYPOINT ["/app/entrypoint.sh"]
+# Start dashboard ONLY (no training)
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]

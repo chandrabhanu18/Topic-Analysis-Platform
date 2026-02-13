@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+nltk
+joblib
+streamlit
+gensim
+pyLDAvis
+matplotlib
+seaborn
+python-dotenv
+plotly

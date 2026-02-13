@@ -1,0 +1,62 @@
+{
+    "topic_0": [
+        "flight",
+        "cancelled",
+        "hour",
+        "hold",
+        "help",
+        "flightled",
+        "delayed",
+        "time",
+        "late",
+        "phone"
+    ],
+    "topic_1": [
+        "thanks",
+        "seat",
+        "flight",
+        "ticket",
+        "dm",
+        "change",
+        "need",
+        "travel",
+        "make",
+        "amp"
+    ],
+    "topic_2": [
+        "flight",
+        "service",
+        "customer",
+        "thank",
+        "thanks",
+        "delay",
+        "airline",
+        "time",
+        "great",
+        "worst"
+    ],
+    "topic_3": [
+        "plane",
+        "gate",
+        "flight",
+        "waiting",
+        "hour",
+        "min",
+        "time",
+        "phone",
+        "people",
+        "sitting"
+    ],
+    "topic_4": [
+        "bag",
+        "flight",
+        "luggage",
+        "lost",
+        "baggage",
+        "like",
+        "email",
+        "time",
+        "guy",
+        "check"
+    ]
+}
